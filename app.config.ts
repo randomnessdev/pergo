@@ -25,7 +25,7 @@ export default defineAppConfig({
       exclude: []
     },
     main: {
-      padded: false,
+      padded: true,
       fluid: true
     },
     header: {
