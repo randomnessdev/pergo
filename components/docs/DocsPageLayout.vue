@@ -81,7 +81,7 @@ onBeforeUnmount(() => {
 
     <!-- TOC -->
     <div v-if="hasToc" class="toc">
-      <div class="toc-wrapper">
+      <div class="toc-wrapper hidden md:block">
         <button @click="isOpen = !isOpen">
           <span class="title">Table of Contents</span>
           <Icon name="heroicons-outline:chevron-right" class="icon" :class="[isOpen && 'rotate']" />
@@ -91,11 +91,11 @@ onBeforeUnmount(() => {
           <DocsToc @move="isOpen = false" />
         </div>
       </div>
-      <div class="p-4 bg-white border shadow-2xl border-sky-100 dark:border-slate-900 dark:bg-slate-800 rounded-2xl">
-        <h3 class="flex items-center gap-2 mb-4 text-base font-semibold">
+      <div class=" p-4 bg-white border shadow-2xl border-sky-100 dark:border-slate-900 dark:bg-slate-800 rounded-2xl">
+        <h3 class="hidden md:flex items-center gap-2 mb-4 text-base font-semibold">
           <Icon name="heroicons:chat-bubble-left-right-solid" /> Contactez-nous
         </h3>
-        <p class="mb-6 text-sm description">
+        <p class="hidden md:block mb-6 text-sm description">
           Prenons contact, nous vous proposerons une présentation personnalisée de nos prestations.
         </p>
         <NuxtLink

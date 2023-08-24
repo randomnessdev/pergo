@@ -1,5 +1,5 @@
 <template>
-  <div class="p-8 dark:bg-slate-800 rounded-2xl">
+  <div class=" p-8 dark:bg-slate-800 rounded-2xl">
     <h3 class="mb-3 text-lg font-semibold">
       Vous souhaitez une présentation de nos services ?
     </h3>
