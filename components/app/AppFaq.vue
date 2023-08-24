@@ -4,10 +4,6 @@ defineProps({
     type: String,
     default: 'Features'
   },
-  class: {
-    type: String,
-    default: 'hidden gap-12 md:grid-cols-2 md:grid-cols-3 md:grid-cols-4'
-  }
 })
 </script>
 
