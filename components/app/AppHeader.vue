@@ -1,13 +1,9 @@
 <script setup lang="ts">
 const { config } = useDocus()
 const { navigation } = useContent()
-const { hasDocSearch } = useDocSearch()
 
 const hasDialog = computed(() => navigation.value?.length > 1)
 
-defineProps({
-  ...variants
-})
 </script>
 
 <template>
