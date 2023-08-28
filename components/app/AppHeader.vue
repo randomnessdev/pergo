@@ -80,19 +80,19 @@ css({
       alignItems: 'center',
       flex: 'none',
       '&.left': {
-        gridColumn: 'span 4 / span 4',
+        gridColumn: 'span 3 / span 3',
         '@lg': {
           marginLeft: 0
         },
       },
       '&.center': {
-        gridColumn: 'span 4 / span 4',
+        gridColumn: 'span 6 / span 6',
         justifyContent: 'center',
         flex: '1'
       },
       '&.right': {
         display: 'flex',
-        gridColumn: 'span 4 / span 4',
+        gridColumn: 'span 3 / span 3',
         justifyContent: 'flex-end',
         alignItems: 'center',
         flex: 'none',
