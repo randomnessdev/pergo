@@ -1,7 +1,7 @@
 export default defineAppConfig({
   docus: {
-    title: 'Performance Ergonomie',
-    description: 'Comprendre le travail pour le transformer ensemble',
+    title: "Performance Ergonomie",
+    description: "Comprendre le travail pour le transformer ensemble",
     // image: 'https://user-images.githubusercontent.com/904724/185365452-87b7ca7b-6030-4813-a2db-5e65c785bf88.png',
     socials: {
       // twitter: 'nuxt_js',
@@ -13,20 +13,20 @@ export default defineAppConfig({
       // }
     },
     github: {
-      dir: '.starters/default/content',
-      branch: 'main',
-      repo: 'docus',
-      owner: 'nuxt-themes',
-      edit: true
+      dir: ".starters/default/content",
+      branch: "main",
+      repo: "docus",
+      owner: "nuxt-themes",
+      edit: true,
     },
     aside: {
       level: 0,
       collapsed: false,
-      exclude: []
+      exclude: [],
     },
     main: {
       padded: true,
-      fluid: true
+      fluid: true,
     },
     header: {
       logo: true,
@@ -36,6 +36,12 @@ export default defineAppConfig({
     },
     footer: {
       credits: false,
-    }
-  }
-})
+      textLinks: [
+        {
+          text: "Performance Ergonomie - 2023 - Tous droits réservés",
+          href: "https://www.performance-ergonomiecom",
+        },
+      ],
+    },
+  },
+});
