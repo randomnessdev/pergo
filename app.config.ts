@@ -38,7 +38,7 @@ export default defineAppConfig({
       credits: false,
       textLinks: [
         {
-          text: "Performance Ergonomie - 2023 - Tous droits réservés",
+          text: "Performance Ergonomie - 2024 - Tous droits réservés",
           href: "https://www.performance-ergonomie.com",
         },
       ],

@@ -22,7 +22,7 @@ defineProps({
 </script>
 
 <template>
-  <section class="block-hero">
+  <section class="!text-center block-hero">
     <div class="layout">
       <div class="content">
         <p v-if="$slots.announce" class="announce">

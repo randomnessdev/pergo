@@ -16,12 +16,13 @@ const hasDialog = computed(() => navigation.value?.length > 1)
 
       <div class="section center">
         <AppHeaderLogo />
-        <AppHeaderNavigation />
+        <!-- <AppHeaderNavigation /> -->
       </div>
 
       <div class="section right">
         <AppSearch v-if="hasDocSearch" />
-        <ThemeSelect />
+        <!-- <ThemeSelect /> -->
+        <AppHeaderNavigation />
         <div class="social-icons">
           <AppSocialIcons />
         </div>

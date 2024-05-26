@@ -58,9 +58,8 @@
             Adresse
           </p>
           <p class="text-gray-500 dark:text-gray-400">
-            Membre d’Odyssée Création<br>
-            14 allée des grandes bruyères<br>
-            41 200 Romorantin-Lanthenay<br>
+            1800 route de villesavin <br>
+            41 250 Mont-près-Chambord<br>
             France
           </p>
         </div>
