@@ -22,7 +22,7 @@ defineProps({
 
 <template>
   <div :class="{ blurry }" class="relative flex flex-col w-full p-8 transition duration-300 bg-white border shadow-md hover:scale-105 rounded-xl border-slate-50 dark:border-slate-800 hover:shadow-2xl dark:bg-slate-800 dark:hover:bg-slate-900">
-    <NuxtLink :to="'/nos-prestations/' + slug">
+    <div>
       <Icon v-if="icon" :name="icon" class="dark:text-green-50" />
       <slot />
       <div>
@@ -37,7 +37,7 @@ defineProps({
           </ContentSlot>
         </p>
       </div>
-    </NuxtLink>
+    </div>
   </div>
 </template>
 
