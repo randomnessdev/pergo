@@ -32,7 +32,9 @@
           </p>
           <p class="text-gray-500 dark:text-gray-400">
             <b>Performance Ergonomie </b><br>
-            SIRET: 326 703 162 00049<br>
+            SIRET: 504 194 770 00049<br>
+            Code APE: 7022Z<br>
+            N° d’organisme de formation: 326 703 162 00049
           </p>
         </div>
         <div>
